@@ -17,7 +17,6 @@ Distance -> 50
 Amount = 30 x 50 + (50-30) x 40 = 2300*/
 
 #include <stdio.h>
-
 int main() {
   float distance,amount;
 
@@ -32,7 +31,6 @@ int main() {
   {
     amount=(30*50)+(distance-30)*40;
   }
-
   printf("Amount = %.2f",amount);
   return 0;
 }

@@ -15,15 +15,15 @@ sum = 1+2+3+...+10 = 55 */
 int main() {
   int n,i,sum=0;
 
-  printf("Enter the number");
-  scanf("%d",&n);
+printf("Enter the number");
+scanf("%d",&n);
 
-  for(i=1;i<=n;i++)
+for(i=1;i<=n;i++)
   {
     sum+=i;
 
   }
-  printf("Sum = %d",sum);
+printf("Sum = %d",sum);
   
   return 0;
 }
